@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#navs {
+  position: relative;
+  margin-right: 50px;
+  /* background-color: #454441;
+  border-radius: 15px; */
+}
+
+#about {
+  /* position: absolute; */
+  height: 80vh;
+  top: 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000 100%
+    ),
+    url("../assets/bg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #Card {
+  border-radius: 8px;
+  width: 350px;
+  height: 500px;
+  background-color: rgba(192, 192, 192, 0.816);
+} */
+
+#noso {
+  font-weight: 700;
+  font-size: 46px;
+}
+
+#downBtn {
+  background-color: #ffbc00 !important;
+  color: #040404;
+  font-size: 20px;
+}
+
+#highlight {
+  color: #ffbc00;
+  font-weight: 700;
+}
+
+#shortText {
+  font-size: 46px;
+  font-weight: 600;
+}
+
+#aboutText {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#btnFoglal {
+  color: #040404;
+  background-color: rgb(235, 235, 235);
+  transition: 0.4s;
+}
+
+#btnRef {
+  color: #464646;
+  margin-left: 35px;
+  background-color: #ffbc00;
+  transition: 0.8s;
+}
+
+#btnRef:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+#btnFoglal:hover {
+  background-color: #ffbc00;
+}
+
+a {
+  text-decoration: none;
+  color: #464646;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #464646;
+}
+
+#foglText {
+  /* border-bottom: 1px solid #ffbc00;
+  padding-bottom: 20px; */
+  color: #464646;
+}
+
+/* .hr1 {
+  margin: 0 auto;
+  width: 40vw;
+  color: #ffbc00;
+  height: 20px;
+} */
+
+#neuro {
+  margin: 0 50px;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 29px 29px 57px #d3d3d3, -29px -29px 57px #ededed;
+}
+
+#carouselExampleSlidesOnly {
+  margin: 8px 5px;
+  width: fit-content;
+  height: auto;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+#Button {
+  color: black;
+  transition: 0.5s;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #f0f0f0ce, #f0f0f0);
+  box-shadow: 11px -11px 22px #cacaca, -11px 11px 22px #f6f6f6;
+}
+
+#footer {
+  margin-top: 75px !important;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+#So {
+  color: #ffbc00;
+}
+
+#explorer {
+  padding: 0 0;
+}
+
+/* #carouselImg {
+  height: 200px;
+} */
+
+#footer a {
+  color: #fff;
+}
+
+@media screen and (max-width: 812px) {
+  #shortText {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  #aboutText {
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  #btnFoglal {
+    font-size: 15px;
+    height: fit-content;
+    width: auto;
+    color: #040404;
+    background-color: rgb(235, 235, 235);
+    transition: 0.4s;
+  }
+
+  #btnRef {
+    font-size: 15px;
+    height: 50px;
+    width: auto;
+    color: #464646;
+    margin-left: 35px;
+    background-color: #ffbc00;
+    transition: 0.8s;
+  }
+
+  #neuro {
+    margin: 0;
+  }
+}
